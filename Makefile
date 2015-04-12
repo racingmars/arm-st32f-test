@@ -3,7 +3,7 @@
 DEVICE=STM32F407xx
 PROJECT=armtest
 
-SRC=main.c system_stm32f4xx.c
+SRC=main.c system_stm32f4xx168MHz.c
 STARTUP=startup_stm32f407xx.s
 OBJS=$(SRC:.c=.o) $(STARTUP:.s=.o)
 
