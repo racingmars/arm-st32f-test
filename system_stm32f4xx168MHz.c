@@ -1,3 +1,14 @@
+/* This provides the following clock values:
+ *   SYSCLK   =  168MHz
+ *   HCLK     =  168MHz
+ *   PCLK1    =  42MHz
+ *   PCLK2    =  84MHz
+ *   Cortex Timer (Systick)  = 21MHz
+ *   TIM2,3,4,5,6,7,12,13,14 = 84MHz
+ *   TIM1,8,9,10,11          = 168MHz
+ *   USB OTG, SDIO, RNG      = 48MHz
+ */
+
 /**
   ******************************************************************************
   * @file    system_stm32f4xx.c
